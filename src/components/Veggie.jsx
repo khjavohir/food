@@ -47,7 +47,7 @@ function Veggie() {
                 <Card>
                   <Link to={"/recipe/" + recipe.id}>
                     <p>{recipe.title}</p>
-                    <img src={recipe.image} />
+                    <img src={recipe.image} alt="img" />
                     <Gradient />
                   </Link>
                 </Card>
